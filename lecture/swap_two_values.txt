@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int a=90;
+      int b=34;
+	int interm;
+
+	cout << a << " " << interm << " " << b << endl;
+
+	interm=a;
+      cout << a << " " << interm << " " << b << endl;
+
+	a = b;
+	cout << a << " " << interm << " " << b << endl;
+
+	b=interm;
+	cout << a << " " << interm << " " << b << endl;
+	
+	return 0;
+}
