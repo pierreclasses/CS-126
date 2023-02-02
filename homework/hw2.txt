@@ -1,0 +1,66 @@
+/********************/
+    EQUATIONS
+/********************/
+
+#include <iostream>
+using namespace std;
+
+
+int main(){
+	cout << "TESTING EQUATIONS\n\n";
+	
+	double a=0,b=0;
+	double side1=0,side2=0;
+
+	//display the equation
+	cout << "(a+b)^2 = a^2+2ab+b^2\n";
+
+	//read the values
+	cout << "Enter a and b: ";
+	cin >> a >> b;	
+
+	//calculate both sides
+	side1 = (a+b)*(a+b);
+	side2 = a*a + 2*a*b+b*b;
+
+	//display result
+	cout << "left side = " << side1 << " = " << side2 << " = rightside";
+
+ 
+      //COMPLETE THE CODE IN ORDER TO
+      //TEST THE OTHER EQUATIONS 
+
+
+	return 0;
+
+}
+
+
+/**********************************/
+		AREA
+/*********************************/
+
+#include <iostream>
+using namespace std;
+
+
+int main(){
+	cout << "CALCULATING AREAS\n\n";
+
+	double side=0,area=0;
+	
+	cout << "SQUARE\n";
+	cout << "Enter the length of a side: ";
+	cin >> side;
+
+	area = side*side;
+
+	cout << "Area of the square = " << area << endl;
+
+	//COMPLETE THE CODE IN ORDER TO FIND
+	//THE AREA OF THE OTHER SHAPES
+
+
+	return 0;
+}
+
