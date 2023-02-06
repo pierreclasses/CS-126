@@ -1,0 +1,140 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	//data type identifier
+	double x = 2,y=12; //initialize
+
+      x = 3;   //assignment
+      y = 34;
+
+       /****************************/
+			COMMENT
+       /****************************/
+
+	int a = 7, b=8;
+      int m = b%a;
+	cout << "m = " << m <<endl; //remainder of an integer division
+	
+	m = a%b;   //a is less than b
+	cout << "m = " << m << endl;
+ 
+      a=2;
+      b=45;
+	cout << "45%2 = " << b%a << endl; //odd number
+
+	b=24;
+	cout << "24%2 = "" << b%a << endl; //even number
+
+	a=3;
+      b=30;
+      //if remainder is 0 than b is divisible by a
+      cout << "30%3 = " << b%a << endl;
+
+      a=145;
+      b=100;
+	cout <<"a%b = " << a%b << endl;
+
+      b=10;
+	cout <<"a%b = " << a%b << endl;
+
+	b=1;
+	cout << "a%b = " <<a%b << endl;
+	
+	
+	//Let us try with doubles. Possible?
+      m = y%x;	//where y and x were declared		
+       
+
+      //Try this one home
+      b=0;
+	cout << "a%b = " << a%b << endl;
+
+
+      /*****************************/
+		INCREMENT
+      /****************************/
+	b=0;
+	a=0;
+	int c=0;
+	int d=0;
+	c++;
+	++d;
+	a=c;
+	b=d;
+	cout << "a=" << a << " b=" << b << " c="<< c << " d="<<d<< endl;
+	a=c++; 
+      b=++d; 
+	cout << "a=" << a << " b=" << b << " c="<< c << " d="<<d<< endl;
+
+	//doubles
+      y=0;
+	x=0;
+	y = x++;
+	cout << "y = " << endl;
+	y=++x; 
+      cout << "y = " << endl;
+
+
+
+	/**********************************/
+			RANGE
+      /**********************************/
+	int a = 9, b=-10;
+
+	a = 20000000000;
+	cout << "a = " << a << endl;
+	
+	long int la=20000000000;
+	cout << "la = " << la << endl;
+	
+      short int sa=100000;
+ 	cout << "sa = " << sa << endl;
+
+	/**********************************/
+		 COMPOUND OPERATOR
+      /**********************************/
+      //((a+b+c)^4)/2
+       double x=0,a,b,c;
+	cin >> a >> >> b >> c;
+	x+=a;
+	x+=b;
+	x+=c;  //equivalent x+=a+b+c; x = a+b+c
+	x*=x;  //x^2
+      x*=x;  //X^2 * x^2 
+      x/=2;
+	cout <<"x =" << x << endl;
+	
+	/**********************************/
+		FUNCTION
+  /**********************************/
+	double a=2,c=3,e,f;
+	d = c*c*c;
+	e = pow(2,3); 
+	f = pow(a,c);
+	cout << "d = " << d << " " << "e = " << e << endl;
+	cout << "f = " << f << endl;
+	
+	a = 4;
+      c = 0.5;
+	d = 1.0/2;
+	e = pow(a,c);
+	f = pow(4,d);
+	cout << "e = " << e << endl;
+	cout << "f = " << f << endl;
+
+	//cppreference: sqrt
+	
+	/**********************************/
+		Const
+  /**********************************/
+	const PI=3.14; //initialize 
+	PI = 3.1415;   //???
+	
+	double area=0,radius=2;
+	cin >> area; //read the area
+	area = PI*radius*radius;
+	cout << "area = " << area << endl;
+
+	return 0;
+}
