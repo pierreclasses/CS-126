@@ -1,0 +1,319 @@
+cout << 0;
+cout << "0";
+cout << '0';
+cout << "0*0";
+cout << 0*0;
+
+int a=4;
+cout << a;
+cout << a*a;
+cout << a-a;
+cout << a/a;
+cout << a%a;
+cout << 2*a;
+cout << 2-a;
+cout << a/2;
+cout << 2/a;
+cout << a%2;
+
+int a=5;
+int b=6;
+
+cout << a*b;
+cout << a-b;
+cout << b/a;
+cout << b%a;
+cout << b+a;
+
+int i=0;
+double d=3.4;
+char c='a';
+string s="Hello";
+float f=5.67;
+
+cout << i;
+cout << d;
+cout << c;
+cout << s;
+cout << f;
+===
+cout << '\t';
+cout << '\"';
+cout << '\n';
+cout << endl;
+cout << "Hel\nlo";
+cout << "H\"ello";
+cout << "\tHello";
+===
+int a=1, b=5;
+cout << 'a' << b*a;
+cout <<'\t' << b-a;
+cout << b/a << b*a;
+cout << endl << b%a;
+cout << '\n' << b/a;
+cout << "Hel\nlo" << b+a*b;
+
+cout << 'a' << b-a << "hello";
+cout << "cout" << endl << b*a + a;
+
+int no=5;
+cout << "I bought: " <<no << "books";
+===
+int a=5, b=1, c;
+
+c=a+b;
+cout << c;
+
+c=a-b;
+cout << c;
+
+c=a/b;
+cout << c;
+
+c=a%b;
+cout << c;
+
+c=a*a-b*a;
+cout << c;
+
+c=6*a-a*b;
+cout << c;
+
+a=c;
+cout << a;
+a=a+b;
+cout <<a
+
+a=b-a+c;
+cout << a;
+===
+int a=0;
+int b=5;  => int a=0, b=5;
+
+int a=4, b=6;
+string s;
+cout
+
+=======================================================
+read the lastname of the father
+read the lastname of the son 
+if the lastnames are the same
+  read the firstname of the father
+  read the firstname of the son
+  display the message: Mr <fullname of the father> is the father of <fullname of the son>.
+else
+  display the message: Mr <fullname of the father> and Mr. <fullname of the son> are not related.
+  
+  
+  
+read the month
+read the date
+if((month is March and date is greater than or equal to 21) or (month is April and date is less than or equal to 19))
+   display Aries
+else if((month is April and date greater than or equal to 20) or (month is May and date less than or equal to 20))
+   display Taurus
+else if((month is May and date greater than or equal to 21) or (month is June and date less than or equal to 21))
+   display Gemini
+else if((month is June and date greater than or equal to 22) or (month is July and date less than or equal to 22))
+   display Cancer
+else if((month is July and date greater than or equal to 23) or (month is August and date less than or equal to 22))
+   display Leo
+else if((month is August and date greater than or equal to 23) or (month is September and date less than or equal to 22))
+   display Virgo
+else if((month is September and date greater than or equal to 23) or (month is October and date less than or equal to 23))
+   display Libra
+else if((month is October and date greater than or equal to 24) or (month is November and date less than or equal to 21))
+   display Scorpius
+else if((month is November and date greater than or equal to 22) or (month is December and date less than or equal to 21))
+   display Sagittarius
+else if((month is December and date greater than or equal to 22) or (month is January and date less than or equal to 19))
+   display Capricornus
+else if((month is January and date greater than or equal to 20) or (month is February and date less than or equal to 18))
+   display Aquarius
+else if((month is February and date greater than or equal to 19) or (month is March and date less than or equal to 20))
+   display Pisces
+   
+   
+read class capacity
+read number of enrolled students
+if(no enrolled students greater than class capacity)
+  calculate how many classes are needed.
+  display: you need to open x classes 
+else
+  display: you need one class for this semester
+  
+  
+
+read capital available
+read no of bananas per fruit basket
+read price of a banana
+read no of mangoes per fruit basket
+read price of a mango
+
+calculate cost of a fruit basket
+if capital less than cost
+	display: You need x extra dollars to make 1 fruit basket
+else
+   calculate how many baskets you can make
+   display: you can make n fruit baskets
+   
+   
+   
+   
+   
+==============================   
+calculation
+display
+loop
+
+if(){
+}
+
+if(){
+} else{
+}
+
+if(){
+  if(){
+  }
+} else {
+}
+
+
+if(){
+  if(){
+  } else {
+  }
+} else {
+}
+
+if(){
+  if(){
+  } else {
+  }
+} else {
+  if(){
+  }
+}
+
+if(){
+}
+if(){
+}
+
+if(){
+}
+if(){
+}
+if(){
+}
+
+if(){
+}else{
+}
+if(){
+}
+
+if(){
+}
+
+if(){
+}else if(){
+}
+
+if(){
+}else if(){
+}else if(){
+}
+
+for(){
+}
+
+for(){
+  for(){
+  }
+}
+
+if(){
+}
+for(){
+}
+if(){
+}
+
+if(){
+  for(){
+  }
+}
+
+
+if(){
+  for(){
+    if(){
+    }
+}
+
+
+
+==================
+FILE
+sum, product, count, average, display, write in file, search
+student: calculate grade
+car:
+house:
+school:
+store:
+computer:
+shoe:
+table:
+smartphone:
+course:
+citizen:
+zoo:
+animal:
+film:
+book:
+day:
+month:
+exam:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
