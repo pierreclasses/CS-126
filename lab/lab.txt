@@ -59,7 +59,7 @@ cout << "cout" << endl << b*a + a;
 int no=5;
 cout << "I bought: " <<no << "books";
 ===
-int a=5, b=1, c;
+int a=5, b=1, d=4, e=6, c;
 
 c=a+b;
 cout << c;
@@ -73,26 +73,71 @@ cout << c;
 c=a%b;
 cout << c;
 
-c=a*a-b*a;
+c=a*b-d;
 cout << c;
 
-c=6*a-a*b;
+c=a-b*d;
 cout << c;
 
-a=c;
-cout << a;
-a=a+b;
-cout <<a
+c=a/b+d;
+cout << c;
 
-a=b-a+c;
-cout << a;
+c=a+c/d;
+cout << c;
+
+c=a*b/d;
+cout << c;
+
+c=a+b-d;
+cout << c;
+
+c=a%b-d;
+cout << c;
+
+c=a-b%d;
+cout << c;
+
+c=a+b*d/e
+cout << c;
+
+c=a/b*d+e;
+cout << c;
+
+c=a/b-d*e;
+cout << c;
+
+c=a/b*(d+e);
+cout << c;
+
+c=a-b/d-e;
+cout << c;
+
+c=(a-b)/(d-e);
+cout << c;
+
+c=(a-b)/d-e;
+cout << c;
+
 ===
-int a=0;
-int b=5;  => int a=0, b=5;
+int a=3, b=3, c=4, d=5;
 
-int a=4, b=6;
-string s;
-cout
+a = b+a;
+b = c;
+a = b + c;
+cout <<a<<b<<c;
+
+a = b + a;
+a = b + a;
+a = b + a;
+cout << a;
+
+a = b*c;
+b = a-d;
+c = a + b;
+b = c/b;
+cout << a << b << c;
+===
+
 
 =======================================================
 read the lastname of the father
@@ -142,8 +187,6 @@ if(no enrolled students greater than class capacity)
 else
   display: you need one class for this semester
   
-  
-
 read capital available
 read no of bananas per fruit basket
 read price of a banana
@@ -156,10 +199,6 @@ if capital less than cost
 else
    calculate how many baskets you can make
    display: you can make n fruit baskets
-   
-   
-   
-   
    
 ==============================   
 calculation
@@ -252,12 +291,63 @@ if(){
     if(){
     }
 }
+=====
+int a=0, b=2, c=2;
+bool v;
 
+v=(a>b);
+cout << v;
+v=(a<b);
+cout << v;
+v=(a<=b);
+cout << v;
+v=(a>=b);
+cout << v;
+v=(a==b);
+cout << v;
+v=(a!=b);
+cout << v;
+
+v=(c>b);
+cout << v;
+v=(c<b);
+cout << v;
+v=(c<=b);
+cout << v;
+v=(c>=b);
+cout << v;
+v=(c==b);
+cout << v;
+v=(c!=b);
+cout << v;
+
+v=(c+a>b-a);
+cout << v;
+v=(c*a<b*b);
+cout << v;
+v=(c/b<=b);
+cout << v;
+v=(c%2>=b-a);
+cout << v;
+v=(c/4==b/4);
+cout << v;
+v=(c*b!=b*c);
+cout << v;
+
+v = (a<b) || (a>b);
+cout << v;
+
+v = (a<b) && (a>b);
+cout << v;
+
+v = (a<c) || (a!=b) || (b==a);
+cout << v;
+=====
 
 
 ==================
 FILE
-sum, product, count, average, display, write in file, search
+sum, product, count, average, display, write in file, search, transform, max, min
 student: calculate grade
 car:
 house:
@@ -276,9 +366,8 @@ book:
 day:
 month:
 exam:
-
-
-
+=====
+max, min, swap, factors, factorial, fibonacci, prime, search, sum, product
 
 
 
